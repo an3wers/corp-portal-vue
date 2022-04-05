@@ -1,0 +1,48 @@
+/* variable */
+$back-light: #f7f9fa;
+$base-dark: #141414;
+$accent-dark: #0277bd;
+$secondary-text-dark: #757C80;
+$secondary-dark: #DCE3EB;
+$secondary-dark-up: #D2D8DF;
+$secondary-line-dark: #BBC1C9;
+$secondary-line-dark-up: #8B96A0;
+$secondary-line-dark-down: #D3D8E0;
+$secondary-back-ligth-up: #EDF3F7;
+
+/* bs variable replace*/
+$font-family-base: "Inter", sans-serif;
+$line-height-base: 1.428571428571429;
+
+$body-bg: $back-light;
+$body-color: $base-dark;
+$primary: $accent-dark;
+
+
+$h1-font-size: 1.625rem;
+$h2-font-size: 1.25rem;
+$h3-font-size: 1rem;
+$headings-font-weight: 700;
+
+/* Form */
+$input-border-color: $secondary-line-dark;
+$input-focus-border-color: $secondary-line-dark-up;
+$input-bg: transparent;
+$input-btn-focus-width:         0;
+$input-btn-focus-color-opacity: 0;
+$input-btn-focus-color:         rgba(0,0,0,0);
+$input-btn-focus-blur:          0;
+$input-btn-focus-box-shadow:    0 0 $input-btn-focus-blur $input-btn-focus-width $input-btn-focus-color;
+
+/* Button */
+
+$input-btn-padding-y: 0.625rem;
+
+// $btn-padding-y-lg
+// $btn-font-size-lg
+
+$btn-padding-y-sm: 0.375rem;
+$btn-font-size-sm: 0.875rem;
+$btn-border-radius-sm: 0.25rem;
+
+$border-radius: 0.375rem;

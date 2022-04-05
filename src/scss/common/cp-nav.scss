@@ -1,0 +1,29 @@
+.navbar-border-shadow {
+  border-top: 1px solid $secondary-line-dark-down;
+  box-shadow: 0px 10px 12px rgba(7, 53, 96, 0.06);
+}
+
+.header-nav {
+  .navbar-nav {
+    gap: 1rem;
+  }
+
+  .nav-link {
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    font-weight: 500;
+    color:$base-dark !important;
+    border-radius: $border-radius;
+
+    &:hover {
+      background-color: $secondary-back-ligth-up;
+    }
+
+    &.active {
+      background-color: $secondary-back-ligth-up;
+      
+    }
+
+  }
+  
+}
